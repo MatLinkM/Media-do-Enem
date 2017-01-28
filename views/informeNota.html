@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+        <meta charset="utf-8" lang="pt-br">
+        <title>Média do Enem</title>
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <img class="iconHeader" src="../assets/img/iconStudent.png">
+                <p id="tittle">Calcule sua média no Enem!</h1>    
+            </header>
+            <div class="form">
+                <p>Insira suas notas e respectivamente seus pesos:</p>
+                    <form>
+                        <ul>
+                            <li>
+                                <label>Ciência da natureza: </label>
+                                <input class="nota" id="notaNat" type="number"> <input class="nota" type="number" id="peso1" placeholder="Peso">
+                            </li>
+
+                            <li>
+                                <label>Ciência da humanas: </label>
+                                <input class="nota" id="notaHum" type="number"> <input class="nota" type="number" id="peso2" placeholder="Peso">
+                            </li>
+
+                            <li>
+                                <label>Matemática: </label>
+                                <input class="nota" id="notaMat" type="number"> <input class="nota" type="number" id="peso3" placeholder="Peso">
+                            </li>
+
+                            <li>
+                                <label>Linguagens: </label>
+                                <input class="nota" id="notaLin" type="number"> <input class="nota" type="number" id="peso4" placeholder="Peso">
+                            </li>
+
+                            <li>
+                                <label>Redação: </label>
+                                <input class="nota" id="notaReda" type="number"> <input class="nota" type="number" id="peso5" placeholder="Peso">
+                            </li>
+                        </ul>
+                    </form>
+
+                <button type="button" onclick="media()">Calcular Média</button>
+            </div> 
+        </div>
+
+        <script type="text/javascript" src="../assets/js/notaJs.js"></script>
+    </body>
+</html>
